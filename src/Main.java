@@ -71,7 +71,7 @@ public class Main {
         int salaryDenis = 83690;
         int salaryKristina = 76230;
         int revenue = (salaryKristina + salaryDenis + salaryMasha) * 12;
-        float newSalaryMasha = salaryMasha + salaryMasha * 10 / 100;
+        float newSalaryMasha = salaryMasha + salaryMasha * 0.1f;
         float newSalaryDenis = salaryDenis + salaryDenis * 0.1f;
         float newSalaryKristina = salaryKristina + salaryKristina * 0.1f;
         float newRevenue = (newSalaryKristina + newSalaryDenis + newSalaryMasha) * 12;
